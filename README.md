@@ -4,6 +4,3 @@ Approach: Deep MIL
 
 Dataset: pacm histopathologic cancer image
 
-Accuray: unknown
-
-AUC: unkown
