@@ -1,1 +1,12 @@
-The res document
+
+Some resouce links
+
+Dataset: https://github.com/basveeling/pcam
+
+Benchmark: https://arxiv.org/pdf/1806.03962.pdf
+
+Benchmark code: https://github.com/basveeling/keras-gcnn
+
+Kaggle competition: https://www.kaggle.com/c/histopathologic-cancer-detection/overview
+
+Histopathologic cancer image background: https://camelyon17.grand-challenge.org/Background/
