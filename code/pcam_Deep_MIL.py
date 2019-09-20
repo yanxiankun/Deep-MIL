@@ -58,7 +58,7 @@ y_test = np.squeeze(y_test)
 
 
 class noisyand(keras.layers.Layer):
-    def __init__(self, num_classes, a = 10, **kwargs):
+    def __init__(self, num_classes, a = 20, **kwargs):
         self.num_classes = num_classes
         self.a = max(1,a)
         super(noisyand,self).__init__(**kwargs)
@@ -143,7 +143,7 @@ model.summary()
 
 
 model.compile(loss=keras.losses.binary_crossentropy,
-                  optimizer= keras.optimizers.RMSprop(),
+                  optimizer= Adam(lr=1e-3),
                   metrics=['accuracy'])
 
 
